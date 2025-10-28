@@ -2,7 +2,6 @@ try:
     import Levenshtein as Lev
 except Exception:
     Lev = None
-
 def _levenshtein(a,b):
     if len(a)<len(b):
         return _levenshtein(b,a)
