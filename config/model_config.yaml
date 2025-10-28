@@ -1,0 +1,22 @@
+model:
+  embed_dim: 128
+  hidden_dim: 256
+  rnn_type: LSTM
+  num_layers: 1
+  dropout: 0.2
+  use_attention: true
+  attn_dim: 128
+data:
+  train_path: data/raw/hin_train.csv
+  max_len: 64
+  min_freq: 1
+  val_frac: 0.1
+  val_path: data/raw/hin_valid.csv
+  test_path: data/raw/hin_test.csv
+training:
+  batch_size: 64
+  lr: 0.001
+  epochs: 5
+  teacher_forcing: 0.5
+  grad_clip: 1.0
+seed: 1337
