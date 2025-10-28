@@ -1,2 +1,9 @@
-train_path: data/raw/sample.tsv
-max_len: 64
+# Data configuration
+train_data_path: "data/processed/train.csv"
+val_data_path: "data/processed/val.csv"
+test_data_path: "data/processed/test.csv"
+lang_source: "hin"
+lang_target: "eng"
+max_seq_length: 25
+tokenizer: "indic_tokenizer"
+
