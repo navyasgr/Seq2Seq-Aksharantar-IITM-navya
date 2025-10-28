@@ -1,18 +1,18 @@
-# 🧠 Seq2Seq Transliteration with Attention — Aksharantar (IIT Madras)
+#  Seq2Seq Transliteration with Attention — Aksharantar (IIT Madras)
 
 **Romanized → Devanagari transliteration** using a character-level Seq2Seq model with **LSTM + Bahdanau Attention**.  
 This repo is a compact, well-documented, and reproducible solution prepared for the IIT Madras Technical Aptitude challenge.
 
 ---
 
-## 🔎 Quick summary
+##  Quick summary
 - **Task:** Map romanized character sequences (e.g., `ghar`) → native script (e.g., `घर`).  
 - **Model:** Encoder (LSTM) + Decoder (LSTM) with Bahdanau additive attention.  
 - **Language:** Python + PyTorch. Ready to run on Colab GPU.
 
 ---
 
-## 📁 Repo structure (what's important)
+##  Repo structure (what's important)
 ```
 Seq2Seq-Aksharantar-IITM/
 ├── src/
@@ -81,7 +81,7 @@ You can change these in `config/model_config.yaml`.
 
 ---
 
-## 🧮 Math (Answer to assignment questions — explicit & worked example)
+##  Math (Answer to assignment questions — explicit & worked example)
 
 ### Notation
 - `e` = embedding dimension  
@@ -112,7 +112,7 @@ Use `e=128`, `h=256`, `V=5000`, `T=20`:
 
 ---
 
-## 🚀 How to run (quick)
+##  How to run (quick)
 1. Install requirements:
 ```bash
 pip install -r requirements.txt
