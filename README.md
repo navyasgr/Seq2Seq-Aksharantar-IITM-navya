@@ -141,6 +141,13 @@ Open `notebooks/Transliteration_Report.ipynb` to see:
 - Mathematical derivation (step-by-step)
 - Attention visualization sketch (heatmaps) and sample outputs
 
+### Training Visualizations
+| Loss Curve | Accuracy Curve |
+|-------------|----------------|
+| ![Loss Curve](visualizations/loss_curve.png) | ![Accuracy Curve](visualizations/accuracy_curve.png) |
+
+
+
 ---
 
 ## 🧾 References & Acknowledgements
