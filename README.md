@@ -144,7 +144,9 @@ Open `notebooks/Transliteration_Report.ipynb` to see:
 ### Training Visualizations
 | Loss Curve | Accuracy Curve |
 |-------------|----------------|
-| ![Loss Curve](visualizations/loss_curve.png) | ![Accuracy Curve](visualizations/accuracy_curve.png) |
+| ![Loss Curve](scripts/checkpoints/checkpoints/visualizations/
+/loss_curve.png) | ![Accuracy Curve](scripts/checkpoints/checkpoints/visualizations/
+/accuracy_curve.png) |
 
 
 
