@@ -4,7 +4,6 @@ from src.data.dataset import TransliterationDataset, build_tokenizers_from_csv
 from src.models.encoder import Encoder
 from src.models.decoder import Decoder
 from src.models.seq2seq import Seq2Seq
-
 def main(args):
     with open(args.config) as f:
         cfg = yaml.safe_load(f)
